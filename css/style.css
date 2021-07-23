@@ -1,0 +1,158 @@
+/*== FONTS ==*/
+
+/*--- Poppins ---*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/*--- Nunito ---*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+/*--- Montserrat ---*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* == Universal == */
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* == Contact Navigation == */
+.flex-container {
+    background: #285DA2;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.contact img {
+    width: 32px;
+    height: auto;    
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.contact img.first {
+    margin-left: -35px;
+}
+
+.contact a {
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.base {
+    text-align: center;
+}
+
+.center {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.socials {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.socials img {
+    width: 32px;
+    height: auto;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+/* == Header == */
+
+.head-container {
+    padding: 10px 0;
+    border-bottom: solid #285DA2 2px;
+}
+
+.head-container img {
+    width: auto;
+    height: auto;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/* == Content == */
+
+.section {
+    margin: 50px 0;
+}
+
+.layout_padding {
+    padding: 0px 30px;
+}
+
+.full {
+	width: 100%;
+}
+
+.full > img {
+    width: 540px;
+	height: auto;
+	border-radius: 15px;
+    margin-bottom: 45px;
+}
+
+.blog_img_popular {
+    margin-bottom: 30px;
+}
+
+.blog_img_popular a {
+    text-decoration: none;
+}
+
+.blog_img_popular h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-align: center;
+    min-height: 50px;
+    line-height: 50px !important;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-top: -35px;
+}
+
+.blog_img_popular p {
+    width: 86%;
+    background: #fff;
+    margin: 0 7%;
+    padding-top: 5%;
+    color: #000;
+    text-align: center;
+	font-weight: 400;
+    font-size: 16px;
+    min-height: 70px;
+}
+
+.img-responsive {
+	max-width: 100%;
+	object-fit: contain;
+    overflow: hidden;
+}
+
+.rounded-h5 {
+	border-radius: 50px;
+}
